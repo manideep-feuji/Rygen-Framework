@@ -1,0 +1,28 @@
+[
+  {
+    "username": "3PLAdminUser",
+    "password": "3plAdmin@2026",
+    "domain": "JCB",
+    "origin": "15 MCDONALD SACRAMENTO",
+    "locationLine2": "Suite 100",
+    "locationLine3": "Building A",
+    "locationGroup": "Group1",
+    "contactName": "John Doe",
+    "contactPhone": "9876543210",
+    "contactEmail": "test@example.com",
+    "contactCompany": "Rygen",
+    "timezone": "America/New_York",
+    "internalNotes": "test",
+    "carrierSpecialInstructions": "Please handle carefully.",
+    "pickupDay": 10,
+    "pickupHour": 5,
+    "pickupMinute": 0,
+    "pickupAmPm": "AM",
+    "destination": "4-Horn Industrial",
+    "description": "300 - Skid Steer",
+    "handling": 123,
+    "referenceNumber": "12345",
+    "valueOfGoods": "1500",
+    "billingTerms": "Prepaid"
+  }
+]
