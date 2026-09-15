@@ -26,17 +26,11 @@ public class DashboardPage {
     }
 
     public boolean isDashboardDisplayed() {
-        return wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        dashboardContainer
-                )
-        ).isDisplayed();
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(dashboardContainer)).isDisplayed();
     }
 
     public OrderPage clickOrders() {
-        wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        ordersLink
+        wait.until(ExpectedConditions.elementToBeClickable(ordersLink
                 )
         ).click();
 

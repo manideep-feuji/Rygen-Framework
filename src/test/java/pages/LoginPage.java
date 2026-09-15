@@ -9,8 +9,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
 
-    WebDriver driver;
-    WebDriverWait wait;
+//    private driver;
+//    private wait;
+
+    private WebDriver driver;
+    private WebDriverWait wait;
 
     private By usernameField = By.id("signInName");
     private By continueButton = By.id("continue");
